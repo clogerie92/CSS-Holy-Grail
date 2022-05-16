@@ -13,6 +13,7 @@ footer
 ```
 
 # GitHub Pages:
+https://clogerie92.github.io/CSS-Holy-Grail/
 
 ## Mock-Up
 The following image shows the web application's appearance
