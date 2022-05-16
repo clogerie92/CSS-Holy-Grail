@@ -1,0 +1,68 @@
+* {
+    margin: 2px;
+}
+
+body {
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-size: 24px;
+    font-family: sans-serif;
+    color: white;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-header {
+    background: #56CCF2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.flex-main {
+    display: flex;
+    flex: 0.5;
+}
+
+.flex-nav {
+    background: #F00000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #DC281E, #F00000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #DC281E, #F00000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding-top: 3rem;
+    flex: 1 1 5rem;
+}
+
+.flex-article {
+    background: #dd3e54;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6be585, #dd3e54);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6be585, #dd3e54); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding-top: 3rem;
+    flex: 3 3;
+}
+
+.flex-aside {
+    background: #F00000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #DC281E, #F00000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #DC281E, #F00000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding-top: 3rem;
+    flex: 1 1 5rem;
+}
+
+.flex-footer {
+    background: #56CCF2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: blue;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+@media all and (max-width: 540px) {
+    .flex-main {
+        flex-direction: column;
+    }
+}
