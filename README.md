@@ -18,4 +18,4 @@ https://clogerie92.github.io/CSS-Holy-Grail/
 ## Mock-Up
 The following image shows the web application's appearance
 
-![The Holy Grail includes a header with a main section that holds the navigation, main article, and sidebar. The footer can be found at the bottom.](holygrail.png)
+![The Holy Grail includes a header with a main section that holds the navigation, main article, and sidebar. The footer can be found at the bottom.](holygrail2.png)
